@@ -1,0 +1,5 @@
+
+home:
+  image: localhost:5000/home-boot-0.1.0
+  ports:
+    - "8085:8085"
