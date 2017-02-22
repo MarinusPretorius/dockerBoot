@@ -10,7 +10,7 @@ import org.springframework.web.bind.annotation.RestController;
 public class HomeResource {
 	@RequestMapping(value = "/getPerson", method= RequestMethod.GET, produces = MediaType.APPLICATION_JSON_VALUE)
     public String home() {
-        return "Hello Docker World";
+        return "Hello Docker World 2";
     }
 
 }
